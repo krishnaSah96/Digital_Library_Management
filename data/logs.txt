@@ -1,0 +1,6 @@
+[2026-10-04 10:00:01] [SYSTEM] BookSphere Digital Library System initialized successfully.
+[2026-10-04 10:00:02] [DATABASE] File-based data storage and DBConnection initialized.
+[2026-10-04 10:00:03] [DISCOVERY] Background book recommendation and indexing thread pool started.
+[2026-10-04 10:00:05] [BACKUP] Seed dataset verified: 8 books loaded from backup.txt.
+[2026-10-04 10:05:12] [LOAN] User aarav_patel borrowed 'Clean Code' (ISBN: 978-0132350884). Due date: 2026-10-18.
+[2026-10-04 10:15:30] [DISCOVERY] Async worker indexed category 'Computer Science' with 4 items.

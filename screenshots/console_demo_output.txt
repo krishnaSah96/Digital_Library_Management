@@ -1,0 +1,157 @@
+[DB Status] Active (File Storage Engine: backup.txt)
+===============================================================================
+   ____              _    ____        _                     
+  | __ )  ___   ___ | | _/ ___| _ __ | |__   ___ _ __ ___   
+  |  _ \ / _ \ / _ \| |/ /\___ \| '_ \| '_ \ / _ \ '__/ _ \  
+  | |_) | (_) | (_) |   <  ___) | |_) | | | |  __/ | |  __/  
+  |____/ \___/ \___/|_|\_\|____/| .__/|_| |_|\___|_|  \___|  
+                                |_|                           
+   BookSphere Digital Library Management and Book Discovery System
+   Java Review - II Demonstration (Core OOP + Console + Threads)
+===============================================================================
+
++------------------ MAIN CONSOLE MENU ------------------+
+|  1. View All Books in Catalog                         |
+|  2. Add New Book Record         (Functional: Add)     |
+|  3. Search Books                (Functional: Search)  |
+|  4. Update Book Details         (Functional: Update)  |
+|  5. Delete Book Record          (Functional: Delete)  |
+|  6. Run Smart Discovery Engine  (Multithreaded)       |
+|  7. Borrow / Check-Out a Book                         |
+|  8. Return a Borrowed Book                            |
+|  9. View Audit Logs & System Statistics               |
+|  0. Exit System                                       |
++-------------------------------------------------------+
+Enter your choice [0-9]: 
+--- [CATALOG RECORDS] ---
+ID   | Title                            | Author             | Category         | Year  | Copies 
+-----------------------------------------------------------------------------------------
+1    | Clean Code: A Handbook of A...   | Robert C. Martin   | Computer Science | 2008  | 4/4    
+2    | Effective Java (3rd Edition)     | Joshua Bloch       | Computer Science | 2018  | 3/3    
+3    | Dune                             | Frank Herbert      | Science Fiction  | 1965  | 5/5    
+4    | Pride and Prejudice              | Jane Austen        | Classic Literature | 1813  | 2/2    
+5    | Thinking, Fast and Slow          | Daniel Kahneman    | Psychology & Mind | 2011  | 3/3    
+6    | Designing Data-Intensive Ap...   | Martin Kleppmann   | Computer Science | 2017  | 2/2    
+7    | Sapiens: A Brief History of...   | Yuval Noah Har..   | Classic Literature | 2015  | 6/6    
+8    | Introduction to Algorithms ...   | Thomas H. Cormen   | Computer Science | 2009  | 1/1    
+Total Records: 8
+
+Press Enter to return to main menu...
+
++------------------ MAIN CONSOLE MENU ------------------+
+|  1. View All Books in Catalog                         |
+|  2. Add New Book Record         (Functional: Add)     |
+|  3. Search Books                (Functional: Search)  |
+|  4. Update Book Details         (Functional: Update)  |
+|  5. Delete Book Record          (Functional: Delete)  |
+|  6. Run Smart Discovery Engine  (Multithreaded)       |
+|  7. Borrow / Check-Out a Book                         |
+|  8. Return a Borrowed Book                            |
+|  9. View Audit Logs & System Statistics               |
+|  0. Exit System                                       |
++-------------------------------------------------------+
+Enter your choice [0-9]: 
+--- [SEARCH RECORDS] ---
+Enter search keyword (Title, Author, ISBN, Category or Tag): 
+Search matched 1 book(s):
+-------------------------------------------------------
+[Physical Book #1] Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
+   Category: Computer Science | Year: 2008 | Pages: 464 | Rating: 4.8?
+   ISBN: 978-0132350884 | Publisher: Prentice Hall
+   Availability: 4 / 4 copies remaining
+   Tags: Software,Best Practice,Clean Code
+   Summary: Even bad code can function. But if code isn't clean, it can bring a development organization to its knees.
+
+Press Enter to return to main menu...
+
++------------------ MAIN CONSOLE MENU ------------------+
+|  1. View All Books in Catalog                         |
+|  2. Add New Book Record         (Functional: Add)     |
+|  3. Search Books                (Functional: Search)  |
+|  4. Update Book Details         (Functional: Update)  |
+|  5. Delete Book Record          (Functional: Delete)  |
+|  6. Run Smart Discovery Engine  (Multithreaded)       |
+|  7. Borrow / Check-Out a Book                         |
+|  8. Return a Borrowed Book                            |
+|  9. View Audit Logs & System Statistics               |
+|  0. Exit System                                       |
++-------------------------------------------------------+
+Enter your choice [0-9]: 
+--- [CATALOG RECORDS] ---
+ID   | Title                            | Author             | Category         | Year  | Copies 
+-----------------------------------------------------------------------------------------
+1    | Clean Code: A Handbook of A...   | Robert C. Martin   | Computer Science | 2008  | 4/4    
+2    | Effective Java (3rd Edition)     | Joshua Bloch       | Computer Science | 2018  | 3/3    
+3    | Dune                             | Frank Herbert      | Science Fiction  | 1965  | 5/5    
+4    | Pride and Prejudice              | Jane Austen        | Classic Literature | 1813  | 2/2    
+5    | Thinking, Fast and Slow          | Daniel Kahneman    | Psychology & Mind | 2011  | 3/3    
+6    | Designing Data-Intensive Ap...   | Martin Kleppmann   | Computer Science | 2017  | 2/2    
+7    | Sapiens: A Brief History of...   | Yuval Noah Har..   | Classic Literature | 2015  | 6/6    
+8    | Introduction to Algorithms ...   | Thomas H. Cormen   | Computer Science | 2009  | 1/1    
+Total Records: 8
+
+Press Enter to return to main menu...
+
++------------------ MAIN CONSOLE MENU ------------------+
+|  1. View All Books in Catalog                         |
+|  2. Add New Book Record         (Functional: Add)     |
+|  3. Search Books                (Functional: Search)  |
+|  4. Update Book Details         (Functional: Update)  |
+|  5. Delete Book Record          (Functional: Delete)  |
+|  6. Run Smart Discovery Engine  (Multithreaded)       |
+|  7. Borrow / Check-Out a Book                         |
+|  8. Return a Borrowed Book                            |
+|  9. View Audit Logs & System Statistics               |
+|  0. Exit System                                       |
++-------------------------------------------------------+
+Enter your choice [0-9]: [Invalid Number] Please enter a valid integer.
+Enter your choice [0-9]: 
+--- [DELETE BOOK RECORD] ---
+Enter Book ID to delete: Are you sure you want to permanently delete 'Clean Code: A Handbook of Agile Software Craftsmanship'? (yes/no): [Cancelled] Deletion cancelled.
+
+Press Enter to return to main menu...
+
++------------------ MAIN CONSOLE MENU ------------------+
+|  1. View All Books in Catalog                         |
+|  2. Add New Book Record         (Functional: Add)     |
+|  3. Search Books                (Functional: Search)  |
+|  4. Update Book Details         (Functional: Update)  |
+|  5. Delete Book Record          (Functional: Delete)  |
+|  6. Run Smart Discovery Engine  (Multithreaded)       |
+|  7. Borrow / Check-Out a Book                         |
+|  8. Return a Borrowed Book                            |
+|  9. View Audit Logs & System Statistics               |
+|  0. Exit System                                       |
++-------------------------------------------------------+
+Enter your choice [0-9]: 
+--- [SYSTEM AUDIT LOGS & BACKUP STATUS] ---
+Total Titles: 8
+Total Copies: 26
+Available:    26
+Borrowed:     0
+E-Books:      3
+
+Recent Activity Logs (data/logs.txt):
+  [2026-10-04 15:51:07] [INFO] Successfully loaded 8 books from data\backup.txt
+  [2026-10-04 15:52:34] [SYSTEM] Starting BookSphere Spring Boot Backend Engine...
+  [2026-10-04 15:52:35] [INFO] Successfully loaded 8 books from data\backup.txt
+  [2026-10-04 15:56:19] [SYSTEM] Initializing BookSphere Standalone Console System...
+  [2026-10-04 15:56:19] [DATABASE] MySQL Driver not loaded. Defaulting to File-backed persistent DAO.
+  [2026-10-04 15:56:19] [INFO] Successfully loaded 8 books from data\backup.txt
+
+Press Enter to return to main menu...
+
++------------------ MAIN CONSOLE MENU ------------------+
+|  1. View All Books in Catalog                         |
+|  2. Add New Book Record         (Functional: Add)     |
+|  3. Search Books                (Functional: Search)  |
+|  4. Update Book Details         (Functional: Update)  |
+|  5. Delete Book Record          (Functional: Delete)  |
+|  6. Run Smart Discovery Engine  (Multithreaded)       |
+|  7. Borrow / Check-Out a Book                         |
+|  8. Return a Borrowed Book                            |
+|  9. View Audit Logs & System Statistics               |
+|  0. Exit System                                       |
++-------------------------------------------------------+
+Enter your choice [0-9]: 
+[BookSphere] Saving state and exiting console interface. Goodbye!

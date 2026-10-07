@@ -1,0 +1,33 @@
+[2026-10-04 10:00:01] [SYSTEM] BookSphere Digital Library System initialized successfully.
+[2026-10-04 10:00:02] [DATABASE] File-based data storage and DBConnection initialized.
+[2026-10-04 10:00:03] [DISCOVERY] Background book recommendation and indexing thread pool started.
+[2026-10-04 10:00:05] [BACKUP] Seed dataset verified: 8 books loaded from backup.txt.
+[2026-10-04 10:05:12] [LOAN] User aarav_patel borrowed 'Clean Code' (ISBN: 978-0132350884). Due date: 2026-10-18.
+[2026-10-04 10:15:30] [DISCOVERY] Async worker indexed category 'Computer Science' with 4 items.
+[2026-10-04 15:38:45] [SYSTEM] Initializing BookSphere Standalone Console System...
+[2026-10-04 15:38:45] [DATABASE] MySQL Driver not loaded. Defaulting to File-backed persistent DAO.
+[2026-10-04 15:38:45] [INFO] Successfully loaded 8 books from data\backup.txt
+[2026-10-04 15:38:45] [SYSTEM] BookSphere Console Session Ended.
+[2026-10-04 15:46:49] [SYSTEM] Starting BookSphere Spring Boot Backend Engine...
+[2026-10-04 15:46:51] [INFO] Successfully loaded 8 books from data\backup.txt
+[2026-10-04 15:51:06] [SYSTEM] Starting BookSphere Spring Boot Backend Engine...
+[2026-10-04 15:51:07] [INFO] Successfully loaded 8 books from data\backup.txt
+[2026-10-04 15:52:34] [SYSTEM] Starting BookSphere Spring Boot Backend Engine...
+[2026-10-04 15:52:35] [INFO] Successfully loaded 8 books from data\backup.txt
+[2026-10-04 15:56:19] [SYSTEM] Initializing BookSphere Standalone Console System...
+[2026-10-04 15:56:19] [DATABASE] MySQL Driver not loaded. Defaulting to File-backed persistent DAO.
+[2026-10-04 15:56:19] [INFO] Successfully loaded 8 books from data\backup.txt
+[2026-10-04 15:56:19] [SYSTEM] BookSphere Console Session Ended.
+[2026-10-04 16:22:13] [SYSTEM] Starting BookSphere Spring Boot Backend Engine...
+[2026-10-04 16:22:15] [INFO] Successfully loaded 8 books from data\backup.txt
+[2026-10-04 16:28:51] [INFO] Backup saved successfully with 9 records.
+[2026-10-04 16:28:51] [ACTION] New record added: [#9] Mastering Microservices by Sam Newman
+[2026-10-04 16:41:40] [INFO] Backup saved successfully with 10 records.
+[2026-10-04 16:41:40] [ACTION] New record added: [#10] maths by krishna
+[2026-10-06 18:09:42] [SYSTEM] Starting BookSphere Spring Boot Backend Engine...
+[2026-10-06 18:09:44] [INFO] Successfully loaded 10 books from data\backup.txt
+[2026-10-07 00:24:46] [SYSTEM] Starting BookSphere Spring Boot Backend Engine...
+[2026-10-07 00:24:48] [INFO] Successfully loaded 10 books from data\backup.txt
+[2026-10-07 10:28:01] [SYSTEM] Starting BookSphere Spring Boot Backend Engine...
+[2026-10-07 10:28:02] [INFO] Successfully loaded 10 books from data\backup.txt
+[2026-10-07 10:28:35] [DISCOVERY] Discovery feed generated with 4 trending and 3 staff picks.
